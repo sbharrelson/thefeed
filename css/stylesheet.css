@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Poiret+One&display=swap');
+
+
+
+body {
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(243, 230, 240);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+header {
+    width: max-content;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: rgb(185, 203, 193);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px
+}
+
+nav {
+    width: 400px;
+    background-position: left;
+    position:fixed;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+main{
+    width: 650px;
+    margin-left: 300px;
+    
+}
+
+section {
+    border: 0px darkblue solid;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+   
+}
+
+section img {
+    border: 0px darkblue solid;
+    padding: 5px;
+    text-decoration: none;
+   
+}
+
+footer {    
+    width: 300px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+   
+}
