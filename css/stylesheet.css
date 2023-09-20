@@ -8,10 +8,8 @@ body {
     background-color: rgb(237, 228, 240);
     text-align: center;
     text-decoration: none;
-    font-family: eight, sans-serif;
-    font-style: normal;
-    font-weight: 400;    
-    font-size: 20px;
+
+    
 }
 
 header {
@@ -22,6 +20,9 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    font-family: transducer-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
 }
 
 nav {
@@ -31,8 +32,7 @@ nav {
     top: 15px;
     right: 15px;
     text-align: center;
-    text-decoration: none;
-    font-size: 25px;
+
 }
 
 main{
