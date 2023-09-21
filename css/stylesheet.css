@@ -1,5 +1,10 @@
 
 body {
+    background-image: url("/img/cloud.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     max-width: 1200px;
     margin:auto;
     background-color: rgb(234, 228, 237);
@@ -17,6 +22,8 @@ h1  {
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
+    color: rgb(78, 106, 131);
+    
 }
 
 h2 {
@@ -25,6 +32,7 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    color: aliceblue;
 }
 
 h3 {
@@ -33,6 +41,7 @@ h3 {
     font-family: "peachy-keen-jf", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(78, 106, 131);
 }
 
 h6 {  font-family: "p22-nudgewink-pro", sans-serif;
@@ -71,13 +80,14 @@ nav {
 main{
     width: 650px;
     margin-left: 300px;
+    
 }
 
 section {
-    border: 5px rgb(205, 113, 196) solid;
+    border: 7px rgb(205, 113, 196) solid;
     border-radius: 10px;
     margin-top: 25px;
-    background-color: rgb(238, 204, 236);
+    background-color: rgb(180, 208, 225);
     text-align: center;
     padding: 30px;
     text-decoration: none;
@@ -86,7 +96,7 @@ section {
 }
 
 section img {
-    border: 0px darkblue solid;
+    border: 0px rgb(194, 194, 214) solid;
     padding: 30px;
     text-decoration: none;
    
@@ -98,5 +108,15 @@ footer {
     text-align: center;
     text-decoration: none;
     padding: 30px
+
+}
+
+p { font-family: "p22-nudgewink-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: rgb(78, 106, 131);
+    text-decoration: none;
+    
 
 }
