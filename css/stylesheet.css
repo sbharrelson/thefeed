@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("/img/cloud.gif");
+    background-image: url("../img/cloud.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
