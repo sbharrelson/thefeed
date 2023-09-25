@@ -22,7 +22,7 @@ h1  {
     font-style: normal;
     font-size: 60px;
     color: rgb(78, 106, 131);
-    
+
 }
 
 h2 {
@@ -41,7 +41,18 @@ h3 {
     font-weight: 400;
     font-style: normal;
     color: rgb(78, 106, 131);
+
 }
+
+
+h5 {
+    text-decoration: none;
+    color: rgb(85, 19, 121);
+    text-decoration: none;
+    line-height: 18px;
+}
+
+
 
 h6 {  
     font-family: "p22-nudgewink-pro", sans-serif;
@@ -52,6 +63,10 @@ h6 {
     margin: 0; 
     color: rgb(78, 106, 131);
 }
+
+a:hover h5 {
+    background-color: rgb(238, 112, 213);
+    }
 
 header {
     background-color: rgb(223, 192, 224);
@@ -94,10 +109,10 @@ main{
 section {
     border: 7px rgb(205, 113, 196) solid;
     border-radius: 10px;
-    margin-top: 25px;
+    margin-top: 20px;
     background-color: rgb(180, 208, 225);
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     text-decoration: none;
     padding: none;
    
